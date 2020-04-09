@@ -8,6 +8,13 @@
     android:padding="15dp"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화할 번호 입력"
+        android:inputType="phone"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
