@@ -33,7 +33,7 @@
             android:id="@+id/dialBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="전화 걸기"/>
+            android:text="다이얼 번호 입력"/>
     </LinearLayout>
 
     <LinearLayout
@@ -54,7 +54,38 @@
             android:id="@+id/callBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="전화 걸기"/>
+            android:text="통화 걸기"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="문자 보내기"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/smsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="문자 보내기"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/naverBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 사이트 이동"/>
+    <Button
+        android:id="@+id/playStoreBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="플레이스토어 앱페이지 이동"/>
 </LinearLayout>
